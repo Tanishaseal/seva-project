@@ -10,16 +10,16 @@ export function Header() {
 
       {/* Main banner container */}
       <div className="mx-auto flex max-w-7xl flex-col items-center justify-between gap-4 px-4 py-3 sm:px-6 sm:py-4 md:flex-row md:gap-3">
-        {/* Left: Organization Logo (logo.jpg) */}
+        {/* Left: Organization Logo (transparent logo.png) */}
         <div className="flex shrink-0 items-center justify-center">
           <Image
-            src="/logo.jpg"
+            src="/logo.png"
             alt="Devoted in Human Service - DKKOSP Seva Logo"
             width={449}
             height={445}
             priority
             quality={95}
-            className="h-20 w-auto object-contain sm:h-24 md:h-28 lg:h-32"
+            className="h-20 w-auto object-contain drop-shadow-xs transition-transform duration-200 hover:scale-105 sm:h-24 md:h-28 lg:h-32"
           />
         </div>
 
@@ -38,20 +38,20 @@ export function Header() {
 
         {/* Right side: 53 Years Service Badge + Dad Image */}
         <div className="flex shrink-0 items-center justify-center gap-3 sm:gap-4 md:gap-5">
-          {/* 53 Years Service Logo (53years service.jpg) */}
+          {/* 53 Years Service Logo (transparent 53years-service.png) */}
           <div className="flex shrink-0 items-center justify-center">
             <Image
-              src="/53years%20service.jpg"
+              src="/53years-service.png"
               alt="53 Years Services"
               width={554}
               height={554}
               priority
               quality={95}
-              className="h-16 w-auto object-contain sm:h-20 md:h-22 lg:h-26"
+              className="h-16 w-auto object-contain drop-shadow-xs transition-transform duration-200 hover:scale-105 sm:h-20 md:h-22 lg:h-26"
             />
           </div>
 
-          {/* Dad Image in the right side (dad.png) */}
+          {/* Dad Image in the right side (transparent dad.png) */}
           <div className="flex shrink-0 flex-col items-center justify-center">
             <Image
               src="/dad.png"
@@ -60,7 +60,7 @@ export function Header() {
               height={470}
               priority
               quality={95}
-              className="h-20 w-auto object-contain sm:h-24 md:h-28 lg:h-32"
+              className="h-20 w-auto object-contain drop-shadow-xs transition-transform duration-200 hover:scale-105 sm:h-24 md:h-28 lg:h-32"
             />
           </div>
         </div>

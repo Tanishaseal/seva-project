@@ -38,16 +38,16 @@ export function Header() {
 
         {/* Right side: 53 Years Service Badge at TOP + smaller Dad Image touching bottom red bar */}
         <div className="flex shrink-0 items-stretch justify-end self-stretch gap-1.5 sm:gap-2.5 md:gap-3.5 pr-0 mr-0">
-          {/* 53 Years Service Logo - positioned at the top */}
-          <div className="flex shrink-0 items-start justify-center self-start pt-0.5 sm:pt-1">
+          {/* 53 Years Service Logo - enlarged for maximum clarity & legibility */}
+          <div className="flex shrink-0 items-start justify-center self-start pt-0.5">
             <Image
               src="/53years-service.png"
               alt="53 Years Services"
-              width={554}
-              height={554}
+              width={524}
+              height={502}
               priority
-              quality={95}
-              className="h-8 w-auto object-contain drop-shadow-2xs transition-transform duration-200 hover:scale-105 sm:h-10 md:h-12 lg:h-14"
+              quality={100}
+              className="h-11 w-auto object-contain drop-shadow-2xs transition-transform duration-200 hover:scale-105 sm:h-13 md:h-16 lg:h-18 xl:h-20"
             />
           </div>
 

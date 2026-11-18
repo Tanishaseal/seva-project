@@ -16,7 +16,7 @@ export function Header() {
             src="/logo.png"
             alt="Devoted in Human Service - DKKOSP Seva Logo - ESTD : 1974"
             width={449}
-            height={470}
+            height={510}
             priority
             quality={95}
             className="h-14 w-auto object-contain drop-shadow-2xs transition-transform duration-200 hover:scale-105 sm:h-18 md:h-22 lg:h-26 xl:h-28"

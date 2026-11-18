@@ -10,13 +10,13 @@ export function Header() {
 
       {/* Main banner container - compact height, horizontally balanced */}
       <div className="w-full flex items-center justify-between pl-3 sm:pl-5 md:pl-7 pr-0 pt-1 pb-0 gap-2 sm:gap-3 md:gap-4">
-        {/* Left: Organization Logo (bigger in size) */}
+        {/* Left: Organization Logo (with curved ESTD : 1974 structure) */}
         <div className="flex shrink-0 items-center justify-center py-0.5 sm:py-1">
           <Image
             src="/logo.png"
-            alt="Devoted in Human Service - DKKOSP Seva Logo"
+            alt="Devoted in Human Service - DKKOSP Seva Logo - ESTD : 1974"
             width={449}
-            height={445}
+            height={470}
             priority
             quality={95}
             className="h-14 w-auto object-contain drop-shadow-2xs transition-transform duration-200 hover:scale-105 sm:h-18 md:h-22 lg:h-26 xl:h-28"

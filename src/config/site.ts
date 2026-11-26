@@ -1,3 +1,8 @@
+export interface NavLink {
+  label: string;
+  href: string;
+}
+
 export interface SiteConfig {
   name: string;
   orgFullName: string;
@@ -10,6 +15,7 @@ export interface SiteConfig {
   statusText: string;
   message: string;
   year: number;
+  navLinks: NavLink[];
 }
 
 export const siteConfig: SiteConfig = {
@@ -26,4 +32,10 @@ export const siteConfig: SiteConfig = {
   message:
     "Our official website is currently under construction as we prepare our digital platform to serve the community. We are working hard behind the scenes to launch soon.",
   year: new Date().getFullYear(),
+  navLinks: [
+    { label: "Home & About Us", href: "/" },
+    { label: "Gallery", href: "/gallery" },
+    { label: "Contact Us", href: "/contact" },
+    { label: "Newsletter", href: "/newsletter" },
+  ],
 };

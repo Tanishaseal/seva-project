@@ -1,6 +1,7 @@
 import React from "react";
 import Image from "next/image";
 import { siteConfig } from "@/config/site";
+import { Navbar } from "@/components/layout/Navbar";
 
 export function Header() {
   return (
@@ -74,6 +75,9 @@ export function Header() {
           </span>
         </div>
       </div>
+
+      {/* Responsive primary navigation */}
+      <Navbar />
     </header>
   );
 }
